@@ -1,9 +1,9 @@
 # FRER recovery-state experiments — code and configuration
 
-Artifacts for the paper's simulation and testbed experiments. Anonymized for double-blind review.
+Artifacts for the paper's simulation and testbed experiments. 
 
-The point of this repo is to make reproducible the things that are actually ours: the
-standard-compliant Vector Recovery Algorithm in OMNeT++/INET (INET's own FRER recovery is just a
+The repository contains the contributions and modules for the FRER paper:
+A standard-compliant Vector Recovery Algorithm for OMNeT++/INET (INET's own FRER recovery is just a
 duplicate filter and has no RecovSeqNum / acceptance window / reset timer), the sequence-number
 injector used for both attacks, and the mitigation (an extended, unpredictable per-stream
 identifier). The physical results need specific TSN hardware, so for those we give the switch
